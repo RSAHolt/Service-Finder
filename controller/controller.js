@@ -1,7 +1,7 @@
-import {getInfo, getInfoId, insertInfo, deleteInfo, updateInfo} from '../model/model.js'
+import {getInfo, getInfoId, insertInfo, deleteInfo, updateInfo} from '../model/modelFirebase.js'
 
 //getInfo
-const getInfoCon = async(requestAnimationFrame,res) => {
+const getInfoCon = async(req,res) => {
     res.json({info:await getInfo()})
 };
 

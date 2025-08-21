@@ -14,7 +14,7 @@ const getInfoId = async (id) => {
 
 //insert info
 const insertInfo = async (UNKNOWN1,UNKNOWN2) => {
-    await pool.query("INSERT INTO `schema`.`table` (`UNKNOW1`,`UNKNOWN2) VALUES (?,?)",[UNKNOWN1,UNKNOWN2])
+    await pool.query("INSERT INTO `schema`.`table` (`UNKNOWN1`,`UNKNOWN2`) VALUES (?,?)",[UNKNOWN1,UNKNOWN2])
 };
 
 //delete info by id
